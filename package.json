@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A tiny utility for hosting campaign notes and linking them all together",
   "main": "index.js",
+  "bin": {
+    "map" : "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
