@@ -11,8 +11,8 @@ const app = express();
 
 const loadData = require('./util/load-data');
 
-app.use(express.static('static'));
-app.use(express.static('node_modules/pixi.js/dist'));
+app.use(express.static(path.join(__dirname, 'static')));
+app.use(express.static(path.resolve('./node_modules/pixi.js/dist')));
 
 app.get('/:type/:id', (req, res) => {
   const dataset = loadData(dataDirectory);
