@@ -1,0 +1,22 @@
+{
+  "name": "dnd-campaign-mapper",
+  "version": "1.0.0",
+  "description": "A tiny utility for hosting campaign notes and linking them all together",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "markdown-it": "^9.1.0",
+    "pixi.js": "^5.1.2",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "@pbs/eslint-config-pbs-kids": "^1.0.2",
+    "eslint": "^6.3.0"
+  }
+}
