@@ -7,7 +7,8 @@
     "map" : "./index.js"
   },
   "scripts": {
-    "test": "eslint --fix index.js util/*"
+    "test": "eslint --fix index.js util/*",
+    "postinstall": "cp node_modules/pixi.js/dist/pixi.js static/"
   },
   "keywords": [],
   "author": "",
