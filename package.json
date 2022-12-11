@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "markdown-it": "^9.1.0",
     "pixi.js": "^5.1.2",
     "yargs": "^14.0.0"
